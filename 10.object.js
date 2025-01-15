@@ -1,5 +1,7 @@
 var Rafsan = {shirt:true, shirtColor:"white",smile:true, swatter:true, swatterColor:"blue"}
 
+
+
 var RafsanPro  = {
     shirt:{
         color:"Black",
@@ -17,3 +19,7 @@ var RafsanPro  = {
         teeth:"White"
     }
 }
+
+console.log(Rafsan['swatter'])
+console.log(RafsanPro['swatter'])
+console.log(RafsanPro['swatter']['price'])
